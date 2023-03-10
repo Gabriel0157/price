@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 400, 700;
+    font-family: 'Karla', sans-serif;
+    box-sizing: border-box;
+}
+
+/*SHIFT + ALT + Seta pra baixo duplica*/
+
+body {
+    background: var(--light-gray);
+}
+
+main {
+    padding-block: 4.5rem; /*padding emcima e embaixo*/
+    padding-inline: 2rem; /*padding nas laterais*/
+}
+
+h1 {
+    font-size: 1.25rem;
+    color: var(--cyan);
+    line-height: 1.5rem;
+    margin-bottom: 1.25rem;
+}
+
+h2 {
+    font-size: 1.125rem;
+    line-height: 1.375rem;
+    color: #fff;
+    margin-bottom: 1.125rem;
+}
